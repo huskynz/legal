@@ -1,1 +1,1 @@
-Welcome to gen6 of HuskyNZ's website Now with a docker image and gen7 on the way soon
+This repos hold all doucments that are hosted on legal.husky.nz where things like the TOC and the like are
