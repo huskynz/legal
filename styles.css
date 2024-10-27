@@ -67,6 +67,11 @@ h1 {
     background-color: #ddd;
 }
 
+.contact-info {
+  margin-top: auto; /* Ensures contact info stays at the bottom */
+  padding: 20px;    /* Adds padding for better spacing */
+}
+
 main {
     flex: 1;
     padding: 20px;
