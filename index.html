@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="https://serv.husky.nz/logo/default.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://serv.husky.nz/logo/default.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://serv.husky.nz/logo/default.png">
   <script>
     function loadContent(file) {
       fetch(file)
@@ -29,9 +28,13 @@
   <div class="container">
     <nav class="sidebar">
       <ul>
-        <li><button onclick="loadContent('toc.html')">Terms of Service</button></li>
-        <li><button onclick="loadContent('Privacy-Policy.html')">Privacy Policy</button></li>
+        <li><a href="#" onclick="loadContent('toc.html')">Terms of Service</a></li>
+        <li><a href="#" onclick="loadContent('Privacy-Policy.html')">Privacy Policy</a></li>
       </ul>
+      <div class="contact-info" style="margin-top: auto; padding-top: 20px;">
+        <p>For any complaints or qustions you can use this email </p>
+        <a href="mailto:mail@husky.nz">mail@husky.nz</a>
+      </div>
     </nav>
   
     <main>
